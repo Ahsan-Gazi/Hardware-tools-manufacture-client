@@ -6,6 +6,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Navbar from './Pages/Shared/Navbar';
 
@@ -19,6 +20,7 @@ function App() {
        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
        <Route path='dashboard' element={<RequireAuth><Dashboard></Dashboard></RequireAuth>}></Route>
        <Route path="/login" element={<Login/>} />
+       <Route path="signup" element={<Register />} />
      </Routes>
     </div>
   );
