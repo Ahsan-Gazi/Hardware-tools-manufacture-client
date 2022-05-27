@@ -4,9 +4,10 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import Particle from "../Shared/Particle";
+import Particle from "../Portfolio/Particle";
 
-import pdf from "../../images/SyntaxCC003 Assignment of AhsanGazi.pdf";
+// import pdf from "../../images/SyntaxCC003 Assignment of AhsanGazi.pdf";
+import pdf from "../../images/Portfolio.pdf"
  import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
  import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -52,7 +53,7 @@ function Portfolio() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;<p className="flex items-center justify-center">Download Portfolio</p>
+            &nbsp;<p className="flex items-center justify-center">See more....</p>
           </Button>
         </Row>
       </Container>
