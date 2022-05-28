@@ -28,11 +28,7 @@ const SignUp = () => {
   const navigate = useNavigate();
   const location = useLocation();
   let from = location.state?.from?.pathname || "/";
-  // useEffect(() => {
-  //   if (token) {
-  //     navigate("/");
-  //   }
-  // }, [user, navigate]);
+
 
   useEffect(() => {
     if (token) {
