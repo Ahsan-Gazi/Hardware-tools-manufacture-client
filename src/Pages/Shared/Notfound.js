@@ -1,22 +1,25 @@
+import React from "react";
+// import img from "../../assets/images/download.png";
 
-import React from 'react';
-import PageTitle from '../Shared/PageTitle/PageTitle';
-import notfound from '../../images/pageNotFound.jpg';
-
-const Notfound = () => {
+const NotFound = () => {
   return (
-    <div className="not-found-container container">
-      <PageTitle title={'404'}></PageTitle>
-      <div className="w-100">
-        <img
-          style={{ width: '100%', height: '100vh' }}
-          className=" img-fluid"
-           src={notfound}
-          alt=""
-        />
+    <div
+      class="hero min-h-screen"
+      style={{
+        // backgroundImage: `url(${img})`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          {/* <button class="btn btn-primary">Get Started</button> */}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Notfound;
+export default NotFound;
