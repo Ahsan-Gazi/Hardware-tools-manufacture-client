@@ -25,8 +25,8 @@ const Subscribe = () => {
           ></path>
         </svg>
         <div>
-          <h3 className="font-bold uppercase">For any Information!</h3>
-          <div className="text-xs">Subscribe us we will contact you.</div>
+          <h3 className="font-bold uppercase"> Fo any query please contact with us</h3>
+          <div className="text-xs">Subscribe us for more information.</div>
         </div>
       </div>
       <div className="flex-none">

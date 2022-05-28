@@ -1,13 +1,16 @@
 import React from 'react';
-import client1 from '../../assets/images/client/client1.png';
-import client2 from '../../assets/images/client/client2.png';
-import client3 from '../../assets/images/client/client3.jpg';
+
+
+import client1 from '../../images/tools/client1.png';
+import client2 from '../../images/tools/client2.png';
+import client3 from '../../images/tools/client3.png';
+
 
 const Client = () => {
   return (
     <div>
       <h1 className=" uppercase text-error text-xl pl-5 font-bold">
-        Biggest Client
+       Largest client 
       </h1>
       <div className="stats shadow w-full mb-20">
         <div className="stat">
@@ -19,8 +22,8 @@ const Client = () => {
             </div>
           </div>
 
-          <div className="stat-value text-success">Round</div>
-          <div className="stat-desc">21% increase of purchase</div>
+          <div className="stat-value text-success">Square</div>
+          <div className="stat-desc">15% increase of purchase</div>
         </div>
 
         <div className="stat">
@@ -32,8 +35,8 @@ const Client = () => {
             </div>
           </div>
 
-          <div className="stat-value text-primary">IXI</div>
-          <div className="stat-desc">18% increase of purchase</div>
+          <div className="stat-value text-primary">ZIMI</div>
+          <div className="stat-desc">30% increase of purchase</div>
         </div>
 
         <div className="stat">
@@ -44,10 +47,10 @@ const Client = () => {
               </div>
             </div>
           </div>
-          <div className="stat-value">DX</div>
+          <div className="stat-value">NEXT</div>
 
           <div className="stat-desc text-secondary">
-            31% increase of purchase
+            45% increase of purchase
           </div>
         </div>
       </div>

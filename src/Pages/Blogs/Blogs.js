@@ -7,7 +7,7 @@ const Blogs = () => {
       <PageTitle title={'Blogs'}></PageTitle>
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div>
-          <h1 className="text-5xl font-bold">Blogs...!</h1>
+          <h1 className="text-5xl font-bold text-center">Blog Section</h1>
           <h1 className="mt-10 uppercase font-semibold text-black">
             14.1: How will you improve the performance of a React Application?
           </h1>

@@ -1,8 +1,8 @@
 import React from 'react';
-import banner1 from '../../assets/images/banner/banner1.png';
-import banner2 from '../../assets/images/banner/banner2.png';
-import banner3 from '../../assets/images/banner/banner3.png';
-import banner4 from '../../assets/images/banner/banner4.png';
+import banner1 from '../../images/tools/tools1.jpg';
+import banner2 from '../../images/tools/tools2.jpg';
+import banner3 from '../../images/tools/tools3.png';
+import banner4 from '../../images/tools/tools4.jpg';
 
 const Banner = () => {
   return (

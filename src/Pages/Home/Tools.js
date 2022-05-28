@@ -9,7 +9,7 @@ const Tools = () => {
     error,
     data: tools,
   } = useQuery("tools", () =>
-    fetch("http://localhost:8888/tools").then((res) => res.json())
+    fetch("https://murmuring-fortress-13309.herokuapp.com/tools").then((res) => res.json())
   );
 
   if (isLoading) {

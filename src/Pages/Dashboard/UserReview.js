@@ -24,7 +24,7 @@ const UserReview = () => {
       email,
     };
     console.log(review);
-    fetch("http://localhost:8888/reviews", {
+    fetch("https://murmuring-fortress-13309.herokuapp.com/reviews", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
