@@ -9,6 +9,7 @@
 * Added login, singup and logout button 
 * Added protected route for reviews , user
 * added admin role
+* provie admin power to another user
 * Added 5 questions and answers in blogs page
 
 ## Getting Started with Create React App
