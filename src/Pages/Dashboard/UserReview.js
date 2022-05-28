@@ -48,12 +48,7 @@ const UserReview = () => {
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold text-accent">Your Review!</h1>
           <p className="py-6 text-lg">
-            Dear User, We provide the best service to our customers. We make the
-            best product in the world. Also, we want to improve our product and
-            service for our customers. Please give a review about our product
-            and service, where we can improve our product and service. We will
-            try our best to make our product more valuable for you. Thank you.
-          </p>
+         Dear client, provide your valuable consent 
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
