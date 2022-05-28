@@ -11,7 +11,7 @@ const MyOrders = () => {
 
   useEffect(() => {
     if (user) {
-      //http://localhost:5000/order?email=delowar@mail.com
+     
       fetch(`https://murmuring-fortress-13309.herokuapp.com/order?email=${user.email}`, {
         method: "GET",
         headers: {
@@ -56,27 +56,7 @@ const MyOrders = () => {
                 <td>{a.price}</td>
                 <td>{a.orderQuantity}</td>
 
-                <td>
-                  {/* {a.price && !a.paid && (
-                    <Link to={`/dashboard/payment/${a._id}`}>
-                      <button className="btn btn-xs btn-success">pay</button>
-                    </Link>
-                  )} */}
-
-                  {/* paid */}
-
-                  {/* {a.price && a.paid && (
-                    <div>
-                      <p>
-                        <span className="text-success">Paid</span>
-                      </p>
-                      <p>
-                        Transaction id:{" "}
-                        <span className="text-success">{a.transactionId}</span>
-                      </p>
-                    </div>
-                  )} */}
-                </td>
+ 
               </tr>
             ))}
           </tbody>

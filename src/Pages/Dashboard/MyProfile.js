@@ -28,7 +28,7 @@ const MyProfile = () => {
   const formSubmit = (e) => {
     e.preventDefault();
 
-    // user info
+
     const email = user?.email;
     const displayName = user?.displayName;
     const address = e.target.address.value;
@@ -46,9 +46,9 @@ const MyProfile = () => {
     };
     console.log(updateUser);
 
-    // setUserInfo(updateUser);
+
     fetch('https://murmuring-fortress-13309.herokuapp.com/userinfo', {
-      method: 'POST', // or 'PUT'
+      method: 'POST', 
       headers: {
         'Content-Type': 'application/json',
       },
@@ -57,11 +57,11 @@ const MyProfile = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log('Success:', data);
-        // refetch();
+  
         if (data) {
           toast.success('Your profile is update successfully');
         }
-        // setUserInfo(data);
+
 
         e.target.reset();
       })
