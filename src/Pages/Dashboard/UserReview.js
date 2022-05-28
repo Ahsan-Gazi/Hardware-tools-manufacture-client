@@ -49,6 +49,7 @@ const UserReview = () => {
           <h1 className="text-5xl font-bold text-accent">Your Review!</h1>
           <p className="py-6 text-lg">
          Dear client, provide your valuable consent 
+         </p>
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">

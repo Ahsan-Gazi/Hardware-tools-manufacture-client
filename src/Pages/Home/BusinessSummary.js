@@ -16,7 +16,7 @@ const BusinessSummary = () => {
       }}
     >
       <h1 className=" text-3xl text-center uppercase bg-gradient-to-r from-purple-400 to-pink-600 text-neutral">
-        Millions Business Trust us
+        A lot of support from the users
       </h1>
       <hr />
       <h3 className="text-sm text-center uppercase font-semibold">
@@ -45,9 +45,9 @@ const BusinessSummary = () => {
           <div className="stat-figure text-secondary">
             <VscFeedback className=" text-4xl" />
           </div>
-          <div className="stat-value">86%</div>
+          <div className="stat-value">80%</div>
           <div className="stat-title">Customer Feedbacks</div>
-          <div className="stat-desc text-secondary">68% are positive</div>
+          <div className="stat-desc text-secondary">80% are positive</div>
         </div>
       </div>
     </section>
