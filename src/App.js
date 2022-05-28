@@ -70,12 +70,9 @@ function App() {
               </RequireAuth>
             }
           />
-          {/* <Route path="myprofile" element={<RequireAuth><MyProfile /></RequireAuth>} /> */}
-          {/* <Route path="myprofile" element={<MyProfile />} /> */}
-          {/* <Route path="addareview" element={<AddAReview />} /> */}
           <Route path="allorders" element={<AllOrders />} />
           <Route path="payment/:id" element={<Payment />} />
-          {/* Admin Panel */}
+        
           <Route
             path="users"
             element={
