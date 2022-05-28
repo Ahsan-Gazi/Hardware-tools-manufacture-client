@@ -10,7 +10,7 @@ import Loading from "../Shared/Loading";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { toast } from "react-toastify";
 import useToken from "../../hookes/useToken";
-// import useToken from '../../hooks/useToken';
+
 
 const Login = () => {
   const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -54,9 +54,9 @@ const Login = () => {
     signInWithEmailAndPassword(data.email, data.password);
   };
 
-  // password resat
+
   const resetPassword = () => {
-    // const email = userInfo.email
+   
     const singleValue = getValues("email");
     if (singleValue) {
       sendPasswordResetEmail(singleValue);
